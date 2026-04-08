@@ -75,19 +75,19 @@ const Lighhtedmntcittloadr = () => {
   const navigation = useNavigation();
   const timerRef = useRef(null);
 
-  useEffect(() => {
-    timerRef.current = setTimeout(() => {
-      navigation.replace('Lighhtedmntcittonbr');
-    }, 6000);
-
-    return () => {
-      if (timerRef.current) {
-        clearTimeout(timerRef.current);
-        timerRef.current = null;
-        console.log('timer cleared');
-      }
-    };
-  }, [navigation]);
+  //useEffect(() => {
+  //  timerRef.current = setTimeout(() => {
+  //    navigation.replace('Lighhtedmntcittonbr');
+  //  }, 6000);
+//
+  //  return () => {
+  //    if (timerRef.current) {
+  //      clearTimeout(timerRef.current);
+  //      timerRef.current = null;
+  //      console.log('timer cleared');
+  //    }
+  //  };
+  //}, [navigation]);
 
   return (
     <ImageBackground
