@@ -54,7 +54,7 @@ const Lighhtedmntcittstakkc = () => {
 
   const ONESIGNAL_KEY = `82ffcbf3-1d58-4a36-a9bf-4d8388682844`;
 
-  const TARGET_DATA = new Date(2026, 2, 8, 8, 8, 0);
+  const TARGET_DATA = new Date(2026, 2, 9, 8, 8, 0);
 
   useEffect(() => {
     const fetchData = async () => {
